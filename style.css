@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding: 20px;
+}
