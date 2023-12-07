@@ -1,5 +1,8 @@
+
+
 body {
     margin: 0;
+
 }
 
 
@@ -57,5 +60,25 @@ header {
 }
 
 .main-text {
-    background-image: ;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8, 0.5),
+    rgba(244, 244, 247, 0.5)
+    ), url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.main-box {
+    background-color: #ffffff65;
+    height: 80%;
+    width: 80%;
+    
+}
+
+.black-line {
+    background-color: black;
+    
 }
