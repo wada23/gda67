@@ -4,7 +4,7 @@ body {
 
 
 header {
-    background-color: blueviolet;
+    background-color: #6bbbae ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,7 +13,18 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 24px;
-    padding: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 30px rgba(14, 13, 13, 0.2);
+}
+
+.header-item {
+    padding: 10px;
+    background-color: #d3eae6;
+    border-radius: 10px;
+}
+
+.header-item-hover:hover {
+    background-color: #acdbd3;
 }
 
 .move-right {
@@ -43,4 +54,8 @@ header {
     .font-bigger {
         font-size: 200%;
     }
+}
+
+.main-text {
+    background-image: ;
 }
