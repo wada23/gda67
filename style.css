@@ -7,7 +7,7 @@ body {
 
 
 header {
-    background-color: #6bbbae ;
+    background-color: #6bbbaecc ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,7 +15,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-size: 24px;
+    font-size: 18px;
     padding: 30px;
     box-shadow: 0 5px 30px rgba(14, 13, 13, 0.2);
 }
@@ -73,8 +73,8 @@ header {
 
 .main-box {
     background-color: #ffffff65;
-    height: 80%;
     width: 80%;
+    margin-top: 130px;
     
 }
 
@@ -82,3 +82,41 @@ header {
     background-color: black;
     
 }
+
+.logo {
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.headline {
+    color: #02011e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-right: 150px;
+}
+
+#gda {
+    font-size: 300%;   
+}
+
+.blue-background {
+    background-color: #6bbbaecc;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.black-white {
+    background-color: #02011e;
+    color: #fff;
+    width: fit-content;
+}
+
