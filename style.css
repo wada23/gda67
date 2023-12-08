@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
 
@@ -62,20 +61,14 @@ header {
 .main-text {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(8, 8, 8, 0.5),
-    rgba(244, 244, 247, 0.5)
-    ), url(image2.jpg);
+    background-image: linear-gradient(#2221216e, #fcf4f456), url(image2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
+    margin-top: 110px;
 }
 
 .main-box {
-    background-color: #ffffff65;
-    width: 80%;
-    margin-top: 130px;
-    
+ background-color: rgba(252, 246, 247, 0.349);
 }
 
 .black-line {
