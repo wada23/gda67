@@ -1,7 +1,4 @@
 
-html {
-    width: 100%;
-}
 body {
     margin: 0 auto;
 }
@@ -58,15 +55,20 @@ header {
     }
 }
 
-main {
+.main-container {
     background-color: green;
     width:100%;
-       
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+
 }
+
 .white-container {
  background-color: #ffffff80;
-  padding-left: 30px;
+ padding-left: 30px;
  padding-right: 30px;
+ border: 3px solid red;
 }
 
 .my-logo {
@@ -93,6 +95,7 @@ main {
 #gda {
     font-size: 800%;
     color: #02011e; 
+    border: 5px solid orange;
 }
 
 .blue-background {
