@@ -1,6 +1,7 @@
 
 body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -56,19 +57,27 @@ header {
 }
 
 .main-container {
-    background-color: green;
-    width:100%;
-    border: 5px solid blue;
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    margin-top: 120px;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
 }
 
 .white-container {
- background-color: #ffffff80;
- padding-left: 30px;
- padding-right: 30px;
- border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff80;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .my-logo {
@@ -94,8 +103,17 @@ header {
 
 #gda {
     font-size: 800%;
-    color: #02011e; 
-    border: 5px solid orange;
+    color: #02011e;
+    margin-bottom: 0;
+}
+
+#gda-p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info-dep {
+    font-size: 38px;
 }
 
 .blue-background {
