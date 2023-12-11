@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #6bbbaecc ;
+    background-color: #6bbbaef3 ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -114,7 +114,7 @@ header {
 }
 
 .blue-background {
-    background-color: #6bbbaecc;
+    background-color: #73d6c6c9;
     border-radius: 10px;
     width: fit-content;
     padding: 10px;
@@ -146,7 +146,7 @@ header {
 
 @media (max-width: 40em) {
     .info-under-main {
-        width:300%;
+        width: 300%;
     }
 }
 
@@ -157,4 +157,45 @@ header {
     border-radius: 10px;
     border: none;
     color: #fff;
+}
+
+.btn-appeler:hover {
+    background-color: #f8aba68c;
+    color: #f87970;    
+}
+
+.tem {
+    text-decoration: underline;    
+    text-align: center;
+}
+
+.tem-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 140px;
+}
+
+.tem-items {
+    height: auto;
+    width: 250px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.tem-name {
+    color: #6bbbaef3;
+    font-weight: bolder;
+}
+
+@media (max-width: 40em) {
+    .tem-container {
+        width: 300%;
+        text-align: center;
+        justify-content: space-around;
+    }
 }
