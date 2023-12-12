@@ -71,7 +71,7 @@ header {
 
 @media (max-width: 40em) {
     .main-container {
-        width: fit-content;
+        width: 300%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -137,7 +137,7 @@ header {
 .info-under-main {
     text-align: center;
     font-size: 30px;
-    color: #88c8be;
+    color: #73d6c5;
     font-weight: bolder;
 }
 
@@ -194,6 +194,13 @@ header {
 }
 
 @media (max-width: 40em) {
+    .tem {
+        width: 300%;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 40em) {
     .tem-container {
         width: 300%;
         text-align: center;
@@ -209,16 +216,16 @@ header {
 .info-white-box {
     background-color: #fff;
     color: #000; 
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
     margin-top: 30px;
     padding: 30px;
     border-radius: 10px;
-    border-top: 3px solid black;
+    border-top: 3px solid #f87970;
 }
 
 .info-button {
-    background-color: #fabdb9ec;
+    background-color: #f87970;
     color: #fff;
     padding: 10px;
     border: none;
@@ -239,5 +246,47 @@ header {
 
 .info-text {
     font-size: 19px;
+}
+
+@media (max-width: 40em) {
+    .info {
+        width: 300%;
+        text-align: center;
+        justify-content: space-around;
+        margin: 0;
+    }
+}
+
+.galerie {
+    background-color: #02011e;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.gal-headline {
+    text-align: center;
+    color: #000;
+    text-decoration: underline;
+}
+
+.gal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 10px;
+}
+
+@media (max-width: 40em) {
+    .galerie, .gal-headline {
+        width: 300%;
+    }
+}
+
+.gal-item {
+    width: 150px;
+    height: 150px;
+    border: 3px solid green;
 }
 
